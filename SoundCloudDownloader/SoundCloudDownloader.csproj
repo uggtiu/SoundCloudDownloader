@@ -45,7 +45,9 @@
     <PackageReference Include="Material.Avalonia.DataGrid" Version="3.9.1" />
     <PackageReference Include="Material.Icons.Avalonia" Version="2.1.10" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
-    <PackageReference Include="Onova" Version="2.6.12" />
+    <Reference Include="Onova">
+      <HintPath>libs\Onova.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
